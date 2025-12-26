@@ -4,7 +4,7 @@ export default function QuoteCard({ quote, error }: { quote: string | null, erro
       {error && <p className="text-red-500 text-center">{error}</p>}
       {quote && (
         <p className="text-xl text-gray-700 text-center italic">
-          "{quote}"
+          {quote}
         </p>
       )}
     </div>
