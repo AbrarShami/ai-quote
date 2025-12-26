@@ -49,7 +49,7 @@ export default function Home() {
       <QuoteCard quote={quote} error={error} />
 
       <p className="mt-8 text-gray-500 text-sm">
-        AI Quote generator built with Next.js and OpenAI API. developed by
+        AI Quote generator built with Next.js and OpenAI API | Developed by {''}
         <a
           href="https://github.com/AbrarShami"
           className="text-purple-600 hover:underline"
